@@ -1,1 +1,18 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+.page-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+[role=banner],[role=article] {
+    width: 40%;
+    background-color: rgb(166, 166, 166);
+}
+
+.sidebar {
+    background-color: rgb(190, 190, 190);
+    position: absolute;
+    top: 1em;
+    right: 1rem;
+    padding: 2%;
+}
