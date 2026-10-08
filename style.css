@@ -4,15 +4,41 @@
     flex-flow: row wrap;
 }
 
-[role=banner],[role=article] {
-    width: 40%;
-    background-color: rgb(166, 166, 166);
+[role=banner],.summary{
+    width: 80%;
+    background-color: rgb(196, 196, 196);
+    height: 35%;
+    padding: 1rem 0rem;
 }
 
 .sidebar {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(205, 205, 205);
     position: absolute;
-    top: 1em;
+    top: .5em;
     right: 1rem;
-    padding: 2%;
+    height: 100%;
+    width: 30%;
+    font-size: 150%;
+    background-image: url(https://images.stockcake.com/public/4/9/b/49b9c085-d0ac-4a97-8c56-ce6a0cafe334_large/vintage-paper-background-stockcake.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem 43em;
+    background-position: center;
+}
+
+[role=main] {
+    width: 30%;
+}
+
+
+
+#design-selection {
+    order: 2;
+}
+
+#design-archives {
+    order: 1;
+}
+
+#zen-resources {
+    order: 3;
 }
